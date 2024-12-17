@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto Balance Converter</title>
+    <style>
+        .output-container {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+        }
+        .copy-button {
+            cursor: pointer;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="color: yellow">Xrocket Token Shortcut</h1>
+    <textarea id="input-text" rows="10" cols="50" placeholder="Paste your balance information here"></textarea>
+    <br>
+    <button style="font-size:20px;" onclick="processInput()">Run</button>
+    <div id="output-container"></div>
+
+    <script>
+        function processInput() {
+            const inputText = document.getElementById("input-text").value;
+            const lines = inputText.split('\n');
+
+            const outputContainer = document.getElementById("output-container");
+            outputContainer.innerHTML = "";
+
+            lines.forEach(line => {
+                const match = line.match(/(\w+): (\d+(?:\.\d+)?) (\w+)/);
+                if (match) {
+                    const [, token, amount, symbol] = match;
+                    const outputLine = `+send ${amount} ${symbol}<button class="copy-button" onclick="copyToClipboard(this)">Copy</button>`;
+                    const outputDiv = document.createElement("div");
+                    outputDiv.innerHTML = outputLine;
+                    outputContainer.appendChild(outputDiv);
+                }
+            });
+        }
+
+        function copyToClipboard(button) {
+            const text = button.parentNode.textContent.trim().replace("Copy", "");
+            navigator.clipboard.writeText(text)
+                .catch(err => {
+                    console.error("Error copying to clipboard:", err);
+                    alert("Failed to copy. Please try again.");
+                });
+        }
+    </script>
+</body>
+</html>
