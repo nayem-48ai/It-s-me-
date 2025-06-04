@@ -1,26 +1,47 @@
 const cards = [
   {
-    heading: "YouTube Premium",
-    category: "YouTube",
+    heading: "Live Card 5$",
+    category: "Live Card",
     logo: "https://i.ibb.co.com/nJjByXK/20250331-060623.png",
-    card_number: "1234 5678 9012 3456",
-    expiry: "12/26",
-    cvc: "123",
-    country: "US",
-    notes: "টেস্ট মাত্র"
+    card_number: "4539887534478351",
+    expiry: "03/27",
+    cvc: "499",
+    country: "Try",
+    notes: "| Mikayla Mraz | Charge! = $5.00 | Payment = Sucsess! | Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/2.318 Mobile/15A256 Safari/604.1"
   },
   {
-    heading: "Remini Pro",
-    category: "Remini",
+    heading: "Live Card 5$",
+    category: "Live Card",
     logo: "https://i.ibb.co.com/nJjByXK/20250331-060623.png",
-    card_number: "9876 5432 1098 7654",
-    expiry: "06/25",
-    cvc: "456",
-    country: "BD",
-    notes: "For Remini Pro BDIX only."
+    card_number: "4716588813312817",
+    expiry: "06/26",
+    cvc: "160",
+    country: "Try",
+    notes: "| Easter Mann | Charge! = $5.00 | Payment = Sucsess! | Mozilla/5.0 (iPhone; CPU iPhone OS 9_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/96.394 Mobile/15A163 Safari/604.1"
+  },
+  /* valid bin end */
+  {
+    heading: "Valid Bin",
+    category: "Valid Bins",
+    logo: "https://i.ibb.co.com/nJjByXK/20250331-060623.png",
+    card_number: "446776xxxxxx",
+    expiry: "Randomly",
+    cvc: "Randomly",
+    country: "United States",
+    notes: "𝐁𝐈𝐍 𝐈𝐧𝐟𝐨 ➜ DEBIT - VISA<br>𝐁𝐚𝐧𝐤 ➜ ____<br>𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ➜ United States 🇺🇸"
   },
   {
-    heading: "YouTube Trial",
+    heading: "Valid Bin",
+    category: "Valid Bins",
+    logo: "https://i.ibb.co.com/nJjByXK/20250331-060623.png",
+    card_number: "412756xxxxxx",
+    expiry: "Randomly",
+    cvc: "Randomly",
+    country: "Bangladesh",
+    notes: "𝐁𝐈𝐍 𝐈𝐧𝐟𝐨 ➜ DEBIT - VISA<br>𝐁𝐚𝐧𝐤 ➜ PADMA BANK LIMITED<br>𝐂𝐨𝐮𝐧𝐭𝐫𝐲 ➜ Bangladesh🇧🇩"
+  },
+  {
+    heading: "none",
     category: "YouTube",
     card_number: "1111 2222 3333 4444",
     expiry: "01/27",
@@ -29,7 +50,7 @@ const cards = [
     notes: "Limited usage. Valid till July."
   },
   {
-    heading: "Remini Pro",
+    heading: "none",
     category: "Remini",
     logo: "https://i.ibb.co.com/nJjByXK/20250331-060623.png",
     card_number: "9876 5432 1098 7654",
@@ -39,7 +60,7 @@ const cards = [
     notes: "For Remini Pro BDIX only."
   },
   {
-    heading: "YouTube Trial",
+    heading: "none",
     category: "YouTube",
     card_number: "1111 2222 3333 4444",
     expiry: "01/27",
@@ -48,7 +69,7 @@ const cards = [
     notes: "Limited usage. Valid till July."
   },
   {
-    heading: "Remini Pro",
+    heading: "none",
     category: "Remini",
     logo: "https://i.ibb.co.com/nJjByXK/20250331-060623.png",
     card_number: "9876 5432 1098 7654",
@@ -58,7 +79,7 @@ const cards = [
     notes: "For Remini Pro BDIX only."
   },
   {
-    heading: "YouTube Trial",
+    heading: "none",
     category: "YouTube",
     card_number: "1111 2222 3333 4444",
     expiry: "01/27",
