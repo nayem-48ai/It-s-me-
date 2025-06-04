@@ -1,5 +1,15 @@
 const cards = [
   {
+    heading: "Live Card Auth",
+    category: "Live Card",
+    logo: "https://i.ibb.co.com/nJjByXK/20250331-060623.png",
+    card_number: "5573489446120470",
+    expiry: "04/26",
+    cvc: "564",
+    country: "UNITED KINGDOM",
+    notes: "𝐆𝐚𝐭𝐞𝐰𝐚𝐲 ⌁ Stripe Auth<br>𝐑𝐞𝐬𝐩𝐨𝐧𝐬𝐞 ⌁ requires_action<br>𝐈𝐧𝐟𝐨 ⌁ MASTERCARD DEBIT STANDARD PREPAID GENERAL SPEND<br>𝐈𝐬𝐬𝐮𝐞𝐫 ⌁ FAIR PAYMENTS LIMITED"
+  },
+  {
     heading: "Live Card 5$",
     category: "Live Card",
     logo: "https://i.ibb.co.com/nJjByXK/20250331-060623.png",
